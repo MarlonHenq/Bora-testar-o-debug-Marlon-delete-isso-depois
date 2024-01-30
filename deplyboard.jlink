@@ -1,0 +1,8 @@
+device nrf52810_xxaa
+SelectInterface SWD
+Speed 4000
+connect
+erase
+loadbin /home/pop_os/code/Leroy/blinky-etiqueta/build_1/zephyr/zephyr.hex, 0x00
+r
+q

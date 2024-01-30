@@ -1,0 +1,1712 @@
+[2024-Jan-29 11:18:17] [debug] --------------------------------------------------------------------------------
+[2024-Jan-29 11:18:17] [debug] nrfjprog --recover --log 
+[2024-Jan-29 11:18:17] [debug] nrfjprog version 10.23.2 external
+[2024-Jan-29 11:18:17] [debug] --------------------------------------------------------------------------------
+[2024-Jan-29 11:18:17] [ info] Load library at /opt/nrf-command-line-tools/lib/libnrfjprogdll.so.
+[2024-Jan-29 11:18:17] [ info] Library loaded, loading member functions.
+[2024-Jan-29 11:18:17] [ info] Member functions succesfully loaded.
+[2024-Jan-29 11:18:17] [debug] [ Client] - open
+[2024-Jan-29 11:18:17] [debug] [ Client] - start
+[2024-Jan-29 11:18:17] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence b10e5698-c4ec-4d21-903f-c08b604c0c04.
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Jan-29 11:18:17] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Jan-29 11:18:17] [debug] [  nRFXX] - open
+[2024-Jan-29 11:18:17] [debug] [  nRFXX] - just_check_family
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - open_dll
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Jan-29 11:18:17] [trace] [ Client] - Command open executed for 5 milliseconds with result 0
+[2024-Jan-29 11:18:17] [debug] [ Client] - config
+[2024-Jan-29 11:18:17] [trace] [ Client] - Command config executed for 1 milliseconds with result 0
+[2024-Jan-29 11:18:17] [debug] [ Client] - enum_emu_snr
+[2024-Jan-29 11:18:17] [ info] [SeggerBackend] - Load library at /opt/SEGGER/JLink/libjlinkarm.so.
+[2024-Jan-29 11:18:17] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Jan-29 11:18:17] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - Set batch mode
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - dll_version
+[2024-Jan-29 11:18:17] [ info] [SeggerBackend] - Segger dll version 7.94.b loaded.
+[2024-Jan-29 11:18:17] [trace] [ Worker] - Command open executed for 3 milliseconds with result 0
+[2024-Jan-29 11:18:17] [debug] [  nRFXX] - config
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Jan-29 11:18:17] [trace] [ Worker] - Command config executed for 1 milliseconds with result 0
+[2024-Jan-29 11:18:17] [debug] [  nRFXX] - enum_emu_con_info
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Jan-29 11:18:17] [trace] [ Client] - Command enum_emu_con_info executed for 94 milliseconds with result 0
+[2024-Jan-29 11:18:17] [debug] [ Client] - connect_to_emu_with_snr
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:18:17] [trace] [ Worker] - Command enum_emu_con_info executed for 94 milliseconds with result 0
+[2024-Jan-29 11:18:17] [debug] [  nRFXX] - connect_to_emu_with_snr
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - connect_to_emu_with_snr
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - ---just_enum_emu_snr
+[2024-Jan-29 11:18:17] [debug] [SeggerBackend] - ---just_get_num_emus
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_connect_to_emu_with_snr
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_connect_to_emu_without_snr
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Segger logging enabled.
+[2024-Jan-29 11:18:18] [trace] [  JLink] - Firmware: J-Link V9 compiled May  7 2021 16:26:12
+[2024-Jan-29 11:18:18] [trace] [  JLink] - Firmware: J-Link V9 compiled May  7 2021 16:26:12
+[2024-Jan-29 11:18:18] [trace] [  JLink] - Decompressing FW timestamp took 116 us
+[2024-Jan-29 11:18:18] [trace] [  JLink] - Hardware: V9.60
+[2024-Jan-29 11:18:18] [trace] [  JLink] - S/N: 69664657
+[2024-Jan-29 11:18:18] [trace] [  JLink] - OEM: SEGGER
+[2024-Jan-29 11:18:18] [trace] [  JLink] - Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+[2024-Jan-29 11:18:18] [trace] [  JLink] - Bootloader: (Could not read)
+[2024-Jan-29 11:18:18] [trace] [  JLink] - TELNET listener socket opened on port 19021
+[2024-Jan-29 11:18:18] [trace] [  JLink] - WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+[2024-Jan-29 11:18:18] [trace] [  JLink] - WEBSRV Webserver running on local port 19080
+[2024-Jan-29 11:18:18] [trace] [  JLink] - Looking for J-Link GUI Server exe at: /opt/SEGGER/JLink/JLinkGUIServerExe 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - Forking J-Link GUI Server: /opt/SEGGER/JLink/JLinkGUIServerExe 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - J-Link GUI Server info: "J-Link GUI server V7.94b " 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 22.615ms returns "O.K."  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.002ms returns 0x01  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_ExecCommand("DisableFlashDL", ...).   
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.001ms returns 0x00  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.001ms returns 0x00  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_SetHookUnsecureDialog  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_SetHookUnsecureDialog(...)
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.005ms returns 0  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.469ms returns 0x00  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_GetSpeedInfo()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - 12000000 Hz / n, n >= 1
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.004ms  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Connected emulator supports SWD speeds up to 12000kHz
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_SetSpeed(2000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.061ms  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_GetSpeed()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.001ms returns 2000  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - SWD clock set to 2000kHz
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_GetSN()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.001ms returns 69664657  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.002ms  
+[2024-Jan-29 11:18:18] [debug] [  nRFXX] - read_device_family
+[2024-Jan-29 11:18:18] [debug] [  nRFXX] - read_device_family
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.001ms returns 0x01  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - read_debug_port_idr
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - read_debug_port_register
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - coresight_configure
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_GetHWStatus(...)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.123ms returns 0  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_Configure()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 100.207ms returns 0  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - read_debug_port_idr
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - read_debug_port_register
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_select_debug_port_register
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Select AP 255, DP Bank 0, AP Bank 255
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.616ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.590ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.589ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.710ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.515ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.536ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.484ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.571ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.564ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.533ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.458ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.497ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.497ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.556ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.511ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.493ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.476ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.485ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.498ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.508ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.507ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.493ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.510ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.519ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.608ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.600ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.592ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.516ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.533ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.493ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.503ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.502ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.488ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.583ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.530ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.494ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.495ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.467ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.494ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.575ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.507ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [error] [ Client] - Encountered error -102: Command connect_to_emu_with_snr executed for 435 milliseconds with result -102
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.588ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.038ms  
+[2024-Jan-29 11:18:18] [error] [ Worker] - An unknown error.
+[2024-Jan-29 11:18:18] [trace] [ Worker] - Command connect_to_emu_with_snr executed for 435 milliseconds with result -102
+[2024-Jan-29 11:18:18] [debug] [  nRFXX] - close
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.007ms returns 0x01  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - close
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_disconnect_from_emu
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - is_connected_to_device
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_IsConnected()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.003ms returns FALSE  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_is_debug_region_powered
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_select_debug_port_register
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Select AP 255, DP Bank 0, AP Bank 255
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.581ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.503ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.567ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.565ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.564ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.589ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.497ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.504ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.463ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.473ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.455ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.510ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.586ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.693ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.560ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.491ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.518ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.522ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.487ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.486ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.496ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.495ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.478ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.512ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.466ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.491ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.510ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.514ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.494ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.449ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.491ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.479ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.468ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.469ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.475ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.456ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.461ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.491ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.477ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.503ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.468ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.513ms returns -1  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Ignore exception An unknown error.
+[2024-Jan-29 11:18:18] [trace] [  JLink] - - 0.016ms  
+[2024-Jan-29 11:18:18] [trace] [  JLink] - JLINK_Close()  
+[2024-Jan-29 11:18:18] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Jan-29 11:18:18] [debug] [  nRFXX] - nRF family DLL closed
+[2024-Jan-29 11:18:18] [trace] [ Client] - Command close executed for 50 milliseconds with result 0
+[2024-Jan-29 11:18:18] [debug] [ Client] - terminate
+[2024-Jan-29 11:18:18] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Jan-29 11:18:18] [trace] [ Worker] - Command close executed for 50 milliseconds with result 0
+[2024-Jan-29 11:18:18] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Jan-29 11:18:18] [trace] [ Worker] - Executed 6 commands for 583 milliseconds
+[2024-Jan-29 11:18:18] [debug] [ Client] - Worker process exited with code: 0
+[2024-Jan-29 11:18:18] [debug] [ Client] - Child process terminated with result 0
+[2024-Jan-29 11:38:37] [debug] --------------------------------------------------------------------------------
+[2024-Jan-29 11:38:37] [debug] nrfjprog --recover --log 
+[2024-Jan-29 11:38:37] [debug] nrfjprog version 10.24.0 external
+[2024-Jan-29 11:38:37] [debug] --------------------------------------------------------------------------------
+[2024-Jan-29 11:38:37] [ info] Load library at /opt/nrf-command-line-tools/lib/libnrfjprogdll.so.
+[2024-Jan-29 11:38:37] [ info] Library loaded, loading member functions.
+[2024-Jan-29 11:38:37] [ info] Member functions succesfully loaded.
+[2024-Jan-29 11:38:37] [debug] [ Client] - open
+[2024-Jan-29 11:38:37] [debug] [ Client] - start
+[2024-Jan-29 11:38:37] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence e027ae0f-d403-460a-bf82-26924d9982b7.
+[2024-Jan-29 11:38:37] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Jan-29 11:38:37] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Jan-29 11:38:37] [debug] [  nRFXX] - open
+[2024-Jan-29 11:38:37] [debug] [  nRFXX] - just_check_family
+[2024-Jan-29 11:38:37] [debug] [SeggerBackend] - open_dll
+[2024-Jan-29 11:38:37] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Jan-29 11:38:38] [trace] [ Client] - Command open executed for 8 milliseconds with result 0
+[2024-Jan-29 11:38:38] [debug] [ Client] - config
+[2024-Jan-29 11:38:38] [ info] [SeggerBackend] - Load library at /opt/SEGGER/JLink/libjlinkarm.so.
+[2024-Jan-29 11:38:38] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Jan-29 11:38:38] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Set batch mode
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - dll_version
+[2024-Jan-29 11:38:38] [ info] [SeggerBackend] - Segger dll version 7.94.b loaded.
+[2024-Jan-29 11:38:38] [trace] [ Worker] - Command open executed for 7 milliseconds with result 0
+[2024-Jan-29 11:38:38] [debug] [  nRFXX] - config
+[2024-Jan-29 11:38:38] [trace] [ Client] - Command config executed for 4 milliseconds with result 0
+[2024-Jan-29 11:38:38] [debug] [ Client] - enum_emu_snr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Jan-29 11:38:38] [trace] [ Worker] - Command config executed for 4 milliseconds with result 0
+[2024-Jan-29 11:38:38] [debug] [  nRFXX] - enum_emu_con_info
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Jan-29 11:38:38] [trace] [ Client] - Command enum_emu_con_info executed for 90 milliseconds with result 0
+[2024-Jan-29 11:38:38] [debug] [ Client] - connect_to_emu_with_snr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:38:38] [trace] [ Worker] - Command enum_emu_con_info executed for 90 milliseconds with result 0
+[2024-Jan-29 11:38:38] [debug] [  nRFXX] - connect_to_emu_with_snr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - connect_to_emu_with_snr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_enum_emu_snr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_get_num_emus
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_connect_to_emu_with_snr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_connect_to_emu_without_snr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Segger logging enabled.
+[2024-Jan-29 11:38:38] [trace] [  JLink] - Firmware: J-Link V9 compiled May  7 2021 16:26:12
+[2024-Jan-29 11:38:38] [trace] [  JLink] - Firmware: J-Link V9 compiled May  7 2021 16:26:12
+[2024-Jan-29 11:38:38] [trace] [  JLink] - Decompressing FW timestamp took 116 us
+[2024-Jan-29 11:38:38] [trace] [  JLink] - Hardware: V9.60
+[2024-Jan-29 11:38:38] [trace] [  JLink] - S/N: 69664657
+[2024-Jan-29 11:38:38] [trace] [  JLink] - OEM: SEGGER
+[2024-Jan-29 11:38:38] [trace] [  JLink] - Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+[2024-Jan-29 11:38:38] [trace] [  JLink] - Bootloader: (Could not read)
+[2024-Jan-29 11:38:38] [trace] [  JLink] - TELNET listener socket opened on port 19021
+[2024-Jan-29 11:38:38] [trace] [  JLink] - WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+[2024-Jan-29 11:38:38] [trace] [  JLink] - WEBSRV Webserver running on local port 19080
+[2024-Jan-29 11:38:38] [trace] [  JLink] - Looking for J-Link GUI Server exe at: /opt/SEGGER/JLink/JLinkGUIServerExe 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - Forking J-Link GUI Server: /opt/SEGGER/JLink/JLinkGUIServerExe 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - J-Link GUI Server info: "J-Link GUI server V7.94b " 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 22.983ms returns "O.K."  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.002ms returns 0x01  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_ExecCommand("DisableFlashDL", ...).   
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.000ms returns 0x00  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.000ms returns 0x00  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_SetHookUnsecureDialog  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_SetHookUnsecureDialog(...)
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.003ms returns 0  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.556ms returns 0x00  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_GetSpeedInfo()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - 12000000 Hz / n, n >= 1
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.003ms  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Connected emulator supports SWD speeds up to 12000kHz
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_SetSpeed(2000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.113ms  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_GetSpeed()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.001ms returns 2000  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - SWD clock set to 2000kHz
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_GetSN()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.001ms returns 69664657  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.002ms  
+[2024-Jan-29 11:38:38] [debug] [  nRFXX] - read_device_family
+[2024-Jan-29 11:38:38] [debug] [  nRFXX] - read_device_family
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.001ms returns 0x01  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - read_debug_port_idr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - read_debug_port_register
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - coresight_configure
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_GetHWStatus(...)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.135ms returns 0  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_Configure()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 101.431ms returns 0  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - read_debug_port_idr
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - read_debug_port_register
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_select_debug_port_register
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Select AP 255, DP Bank 0, AP Bank 255
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.819ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.796ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.756ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.850ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.927ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.837ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.750ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.733ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.942ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.923ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.910ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.895ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.733ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.749ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.763ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.770ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.800ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.800ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.802ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.780ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.886ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.784ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.734ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.814ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.769ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.804ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.738ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.833ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.839ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.741ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.775ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.772ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.840ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.789ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.777ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.735ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.792ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.897ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [error] [ Client] - Encountered error -102: Command connect_to_emu_with_snr executed for 447 milliseconds with result -102
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.739ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.757ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.773ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.727ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.033ms  
+[2024-Jan-29 11:38:38] [error] [ Worker] - An unknown error.
+[2024-Jan-29 11:38:38] [trace] [ Worker] - Command connect_to_emu_with_snr executed for 447 milliseconds with result -102
+[2024-Jan-29 11:38:38] [debug] [  nRFXX] - close
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.002ms returns 0x01  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - close
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_disconnect_from_emu
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - is_connected_to_device
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_IsConnected()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.001ms returns FALSE  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_is_debug_region_powered
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_select_debug_port_register
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Select AP 255, DP Bank 0, AP Bank 255
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.791ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.771ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.754ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.772ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.852ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.789ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.819ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.784ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.749ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.795ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.788ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.754ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.718ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.721ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.751ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.807ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.761ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.753ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.784ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.731ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.762ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.738ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.765ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.789ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.752ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.769ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.772ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.768ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.741ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.904ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.726ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.793ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.769ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.741ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.719ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.768ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.799ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.742ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.742ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.751ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.727ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.770ms returns -1  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Ignore exception An unknown error.
+[2024-Jan-29 11:38:38] [trace] [  JLink] - - 0.020ms  
+[2024-Jan-29 11:38:38] [trace] [  JLink] - JLINK_Close()  
+[2024-Jan-29 11:38:38] [debug] [SeggerBackend] - Segger Backend closed.
+[2024-Jan-29 11:38:38] [debug] [  nRFXX] - nRF family DLL closed
+[2024-Jan-29 11:38:38] [trace] [ Client] - Command close executed for 67 milliseconds with result 0
+[2024-Jan-29 11:38:38] [debug] [ Client] - terminate
+[2024-Jan-29 11:38:38] [trace] [ Client] - Command terminate executed for 0 milliseconds with result 0
+[2024-Jan-29 11:38:38] [trace] [ Worker] - Command close executed for 67 milliseconds with result 0
+[2024-Jan-29 11:38:38] [trace] [ Worker] - Command terminate executed for 0 milliseconds with result 0
+[2024-Jan-29 11:38:38] [trace] [ Worker] - Executed 6 commands for 615 milliseconds
+[2024-Jan-29 11:38:38] [debug] [ Client] - Worker process exited with code: 0
+[2024-Jan-29 11:38:38] [debug] [ Client] - Worker process exited with code: 0
+[2024-Jan-29 14:07:12] [debug] --------------------------------------------------------------------------------
+[2024-Jan-29 14:07:12] [debug] nrfjprog -f NRF52 --recover --log 
+[2024-Jan-29 14:07:12] [debug] nrfjprog version 10.24.0 external
+[2024-Jan-29 14:07:12] [debug] --------------------------------------------------------------------------------
+[2024-Jan-29 14:07:12] [ info] Load library at /opt/nrf-command-line-tools/lib/libnrfjprogdll.so.
+[2024-Jan-29 14:07:12] [ info] Library loaded, loading member functions.
+[2024-Jan-29 14:07:12] [ info] Member functions succesfully loaded.
+[2024-Jan-29 14:07:12] [debug] [ Client] - open
+[2024-Jan-29 14:07:12] [debug] [ Client] - start
+[2024-Jan-29 14:07:12] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 19fdaea1-583e-4da2-a089-9612fea3da35.
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Jan-29 14:07:12] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - open
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - just_check_family
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - open_dll
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Jan-29 14:07:12] [trace] [ Client] - Command open executed for 10 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [ Client] - config
+[2024-Jan-29 14:07:12] [trace] [ Client] - Command config executed for 2 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [ Client] - enum_emu_snr
+[2024-Jan-29 14:07:12] [ info] [SeggerBackend] - Load library at /opt/SEGGER/JLink/libjlinkarm.so.
+[2024-Jan-29 14:07:12] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Jan-29 14:07:12] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Set batch mode
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - dll_version
+[2024-Jan-29 14:07:12] [ info] [SeggerBackend] - Segger dll version 7.94.b loaded.
+[2024-Jan-29 14:07:12] [trace] [ Worker] - Command open executed for 4 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - config
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Jan-29 14:07:12] [trace] [ Worker] - Command config executed for 2 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - enum_emu_con_info
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Jan-29 14:07:12] [trace] [ Client] - Command enum_emu_con_info executed for 92 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [ Client] - connect_to_emu_with_snr
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:07:12] [trace] [ Worker] - Command enum_emu_con_info executed for 92 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - connect_to_emu_with_snr
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - connect_to_emu_with_snr
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_enum_emu_snr
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_get_num_emus
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_connect_to_emu_with_snr
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_connect_to_emu_without_snr
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Segger logging enabled.
+[2024-Jan-29 14:07:12] [trace] [  JLink] - Firmware: J-Link V9 compiled May  7 2021 16:26:12
+[2024-Jan-29 14:07:12] [trace] [  JLink] - Firmware: J-Link V9 compiled May  7 2021 16:26:12
+[2024-Jan-29 14:07:12] [trace] [  JLink] - Decompressing FW timestamp took 106 us
+[2024-Jan-29 14:07:12] [trace] [  JLink] - Hardware: V9.60
+[2024-Jan-29 14:07:12] [trace] [  JLink] - S/N: 69664657
+[2024-Jan-29 14:07:12] [trace] [  JLink] - OEM: SEGGER
+[2024-Jan-29 14:07:12] [trace] [  JLink] - Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+[2024-Jan-29 14:07:12] [trace] [  JLink] - Bootloader: (Could not read)
+[2024-Jan-29 14:07:12] [trace] [  JLink] - TELNET listener socket opened on port 19021
+[2024-Jan-29 14:07:12] [trace] [  JLink] - WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+[2024-Jan-29 14:07:12] [trace] [  JLink] - WEBSRV Webserver running on local port 19080
+[2024-Jan-29 14:07:12] [trace] [  JLink] - Looking for J-Link GUI Server exe at: /opt/SEGGER/JLink/JLinkGUIServerExe 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - Forking J-Link GUI Server: /opt/SEGGER/JLink/JLinkGUIServerExe 
+[2024-Jan-29 14:07:12] [trace] [ Client] - Command connect_to_emu_with_snr executed for 332 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [ Client] - read_connected_emu_snr
+[2024-Jan-29 14:07:12] [trace] [ Client] - Command read_connected_emu_snr executed for 0 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [ Client] - recover
+[2024-Jan-29 14:07:12] [trace] [  JLink] - J-Link GUI Server info: "J-Link GUI server V7.94b " 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 38.910ms returns "O.K."  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.002ms returns 0x01  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_ExecCommand("DisableFlashDL", ...).   
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.001ms returns 0x00  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.001ms returns 0x00  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_SetHookUnsecureDialog  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_SetHookUnsecureDialog(...)
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.006ms returns 0  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.558ms returns 0x00  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_GetSpeedInfo()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - 12000000 Hz / n, n >= 1
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.007ms  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Connected emulator supports SWD speeds up to 12000kHz
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_SetSpeed(2000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.102ms  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_GetSpeed()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.002ms returns 2000  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - SWD clock set to 2000kHz
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_GetSN()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.001ms returns 69664657  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.002ms  
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - read_device_family
+[2024-Jan-29 14:07:12] [trace] [ Worker] - Command connect_to_emu_with_snr executed for 332 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - read_connected_emu_snr
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.001ms returns 0x01  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - read_connected_emu_snr
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.001ms  
+[2024-Jan-29 14:07:12] [trace] [ Worker] - Command read_connected_emu_snr executed for 0 milliseconds with result 0
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - recover
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.002ms returns 0x01  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - Just_recover
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - Just_is_ctrl_ap_available
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - read_access_port_register
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_read_access_port_register
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - coresight_configure
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_GetHWStatus(...)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.125ms returns 0  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_Configure()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 101.467ms returns 0  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - read_debug_port_idr
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - read_debug_port_register
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_select_debug_port_register
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Select AP 255, DP Bank 0, AP Bank 255
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.830ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.733ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.772ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.821ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.786ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.805ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.854ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.768ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.752ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.788ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.737ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.783ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.775ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.763ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.772ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.812ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.714ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.766ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.860ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.861ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.753ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.744ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.859ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.833ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.748ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.875ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.841ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.769ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.745ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.783ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.726ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.739ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.722ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.723ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.777ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.729ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.776ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.827ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.762ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.779ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [error] [ Client] - Encountered error -21: Command recover executed for 136 milliseconds with result -21
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.724ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.776ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.057ms  
+[2024-Jan-29 14:07:12] [error] [ Worker] - An unknown error.
+[2024-Jan-29 14:07:12] [trace] [ Worker] - Command recover executed for 136 milliseconds with result -21
+[2024-Jan-29 14:07:12] [debug] [  nRF52] - close
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.006ms returns 0x01  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - close
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_disconnect_from_emu
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - is_connected_to_device
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_IsConnected()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.001ms returns FALSE  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_is_debug_region_powered
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_select_debug_port_register
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Select AP 255, DP Bank 0, AP Bank 255
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.722ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.810ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.727ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.744ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.771ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.740ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.743ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.780ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.714ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.764ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.869ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.766ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.841ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.780ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.845ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.778ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.849ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.822ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.796ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.769ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.841ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.759ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.770ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.882ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.715ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.781ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.749ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.727ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.766ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.764ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.792ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.766ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.738ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.720ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.775ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.744ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:07:12] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.733ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.770ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.727ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.778ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - - 0.785ms returns -1  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:07:12] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:53] [debug] --------------------------------------------------------------------------------
+[2024-Jan-29 14:09:53] [debug] nrfjprog -f NRF52 --recover --log 
+[2024-Jan-29 14:09:53] [debug] nrfjprog version 10.24.0 external
+[2024-Jan-29 14:09:53] [debug] --------------------------------------------------------------------------------
+[2024-Jan-29 14:09:53] [ info] Load library at /opt/nrf-command-line-tools/lib/libnrfjprogdll.so.
+[2024-Jan-29 14:09:53] [ info] Library loaded, loading member functions.
+[2024-Jan-29 14:09:53] [ info] Member functions succesfully loaded.
+[2024-Jan-29 14:09:53] [debug] [ Client] - open
+[2024-Jan-29 14:09:53] [debug] [ Client] - start
+[2024-Jan-29 14:09:53] [ info] [ Client] - stdout: Jlinkarm nRF Worker ready. Handling sequence 1bb7393a-ddce-4d02-be5a-13b825acc840.
+[2024-Jan-29 14:09:53] [debug] [SeggerBackend] - Logger sink registered in Segger backend logger
+[2024-Jan-29 14:09:53] [debug] [  JLink] - Logger sink registered in JLink logger
+[2024-Jan-29 14:09:53] [debug] [  nRF52] - open
+[2024-Jan-29 14:09:53] [debug] [  nRF52] - just_check_family
+[2024-Jan-29 14:09:53] [debug] [SeggerBackend] - open_dll
+[2024-Jan-29 14:09:53] [debug] [SeggerBackend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2024-Jan-29 14:09:53] [trace] [ Client] - Command open executed for 8 milliseconds with result 0
+[2024-Jan-29 14:09:53] [debug] [ Client] - config
+[2024-Jan-29 14:09:53] [ info] [SeggerBackend] - Load library at /opt/SEGGER/JLink/libjlinkarm.so.
+[2024-Jan-29 14:09:53] [ info] [SeggerBackend] - Library loaded, loading member functions.
+[2024-Jan-29 14:09:53] [ info] [SeggerBackend] - Member functions succesfully loaded.
+[2024-Jan-29 14:09:53] [debug] [SeggerBackend] - Set batch mode
+[2024-Jan-29 14:09:53] [debug] [SeggerBackend] - dll_version
+[2024-Jan-29 14:09:53] [ info] [SeggerBackend] - Segger dll version 7.94.b loaded.
+[2024-Jan-29 14:09:53] [trace] [ Worker] - Command open executed for 6 milliseconds with result 0
+[2024-Jan-29 14:09:53] [debug] [  nRF52] - config
+[2024-Jan-29 14:09:53] [trace] [ Client] - Command config executed for 3 milliseconds with result 0
+[2024-Jan-29 14:09:53] [debug] [ Client] - enum_emu_snr
+[2024-Jan-29 14:09:53] [debug] [SeggerBackend] - enum_emu_snr
+[2024-Jan-29 14:09:53] [trace] [ Worker] - Command config executed for 3 milliseconds with result 0
+[2024-Jan-29 14:09:53] [debug] [  nRF52] - enum_emu_con_info
+[2024-Jan-29 14:09:53] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:09:53] [debug] [SeggerBackend] - enum_emu_con_info
+[2024-Jan-29 14:09:54] [trace] [ Client] - Command enum_emu_con_info executed for 95 milliseconds with result 0
+[2024-Jan-29 14:09:54] [debug] [ Client] - connect_to_emu_with_snr
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:09:54] [trace] [ Worker] - Command enum_emu_con_info executed for 95 milliseconds with result 0
+[2024-Jan-29 14:09:54] [debug] [  nRF52] - connect_to_emu_with_snr
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - connect_to_emu_with_snr
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_enum_emu_snr
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_get_num_emus
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_connect_to_emu_with_snr
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_connect_to_emu_without_snr
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Segger logging enabled.
+[2024-Jan-29 14:09:54] [trace] [  JLink] - Firmware: J-Link V9 compiled May  7 2021 16:26:12
+[2024-Jan-29 14:09:54] [trace] [  JLink] - Firmware: J-Link V9 compiled May  7 2021 16:26:12
+[2024-Jan-29 14:09:54] [trace] [  JLink] - Decompressing FW timestamp took 118 us
+[2024-Jan-29 14:09:54] [trace] [  JLink] - Hardware: V9.60
+[2024-Jan-29 14:09:54] [trace] [  JLink] - S/N: 69664657
+[2024-Jan-29 14:09:54] [trace] [  JLink] - OEM: SEGGER
+[2024-Jan-29 14:09:54] [trace] [  JLink] - Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+[2024-Jan-29 14:09:54] [trace] [  JLink] - Bootloader: (Could not read)
+[2024-Jan-29 14:09:54] [trace] [  JLink] - TELNET listener socket opened on port 19021
+[2024-Jan-29 14:09:54] [trace] [  JLink] - WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+[2024-Jan-29 14:09:54] [trace] [  JLink] - WEBSRV Webserver running on local port 19080
+[2024-Jan-29 14:09:54] [trace] [  JLink] - Looking for J-Link GUI Server exe at: /opt/SEGGER/JLink/JLinkGUIServerExe 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - Forking J-Link GUI Server: /opt/SEGGER/JLink/JLinkGUIServerExe 
+[2024-Jan-29 14:09:54] [trace] [ Client] - Command connect_to_emu_with_snr executed for 302 milliseconds with result 0
+[2024-Jan-29 14:09:54] [debug] [ Client] - read_connected_emu_snr
+[2024-Jan-29 14:09:54] [trace] [ Client] - Command read_connected_emu_snr executed for 0 milliseconds with result 0
+[2024-Jan-29 14:09:54] [debug] [ Client] - recover
+[2024-Jan-29 14:09:54] [trace] [  JLink] - J-Link GUI Server info: "J-Link GUI server V7.94b " 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 22.525ms returns "O.K."  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.003ms returns 0x01  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_ExecCommand("DisableFlashDL", ...).   
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.000ms returns 0x00  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.001ms returns 0x00  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_SetHookUnsecureDialog  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_SetHookUnsecureDialog(...)
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.005ms returns 0  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.639ms returns 0x00  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_GetSpeedInfo()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - 12000000 Hz / n, n >= 1
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.003ms  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Connected emulator supports SWD speeds up to 12000kHz
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_SetSpeed(2000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.103ms  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_GetSpeed()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.002ms returns 2000  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - SWD clock set to 2000kHz
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_GetSN()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.003ms returns 69664657  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.003ms  
+[2024-Jan-29 14:09:54] [debug] [  nRF52] - read_device_family
+[2024-Jan-29 14:09:54] [trace] [ Worker] - Command connect_to_emu_with_snr executed for 302 milliseconds with result 0
+[2024-Jan-29 14:09:54] [debug] [  nRF52] - read_connected_emu_snr
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.003ms returns 0x01  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - read_connected_emu_snr
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.003ms  
+[2024-Jan-29 14:09:54] [trace] [ Worker] - Command read_connected_emu_snr executed for 0 milliseconds with result 0
+[2024-Jan-29 14:09:54] [debug] [  nRF52] - recover
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.003ms returns 0x01  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:09:54] [debug] [  nRF52] - Just_recover
+[2024-Jan-29 14:09:54] [debug] [  nRF52] - Just_is_ctrl_ap_available
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - read_access_port_register
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_read_access_port_register
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - coresight_configure
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_GetHWStatus(...)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.129ms returns 0  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_Configure()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 101.270ms returns 0  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - read_debug_port_idr
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - read_debug_port_register
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_select_debug_port_register
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Select AP 255, DP Bank 0, AP Bank 255
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.891ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.924ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.855ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.840ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.754ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.890ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.785ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.781ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.752ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.830ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.784ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.795ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.760ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.802ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.780ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.749ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.838ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.856ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.907ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.758ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.824ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.848ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.725ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.768ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.725ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.875ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.704ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.776ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.743ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [error] [ Client] - Encountered error -21: Command recover executed for 136 milliseconds with result -21
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.715ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.825ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.710ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.768ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.723ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.750ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.751ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.728ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.755ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.781ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.737ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.722ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.807ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.050ms  
+[2024-Jan-29 14:09:54] [error] [ Worker] - An unknown error.
+[2024-Jan-29 14:09:54] [trace] [ Worker] - Command recover executed for 136 milliseconds with result -21
+[2024-Jan-29 14:09:54] [debug] [  nRF52] - close
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - is_connected_to_emu
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_IsOpen()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.001ms returns 0x01  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_Lock()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - close
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - disconnect_from_emu
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_disconnect_from_emu
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - is_connected_to_device
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_IsConnected()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.001ms returns FALSE  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_is_debug_region_powered
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_read_debug_port_register
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_select_debug_port_register
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Select AP 255, DP Bank 0, AP Bank 255
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.695ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.872ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.756ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.755ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.761ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.754ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.863ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.764ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.947ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.767ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.732ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.766ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.702ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.776ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.717ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.744ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.741ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.776ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.754ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.709ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.803ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.793ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.779ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.743ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.760ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.750ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.757ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.778ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.804ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.740ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.801ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.873ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.720ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.789ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.751ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.740ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - ---just_abort_debug_action
+[2024-Jan-29 14:09:54] [debug] [SeggerBackend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.780ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.759ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.751ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.788ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - - 0.770ms returns -1  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_HasError()  
+[2024-Jan-29 14:09:54] [trace] [  JLink] - JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
